@@ -42,7 +42,7 @@ plt.scatter(x[y_kmeans == 6, 0], x[y_kmeans == 6, 1], s = 50, c = 'brown', label
 plt.scatter(kmeans.cluster_centers_[:, 0], kmeans.cluster_centers_[:, 1], s = 100, c = 'yellow', label = 'Centroids')
 plt.title('Clusters of customers')
 plt.xlabel('Annual Income (k$)')
-plt.ylabel('Spending Score (1-100)')
+plt.ylabel('Spending Scores (1-100)')
 plt.legend()
 plt.show()
 
