@@ -2,7 +2,7 @@
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-
+##test
 df=pd.read_csv("Mall_Customers.csv")
 df.head()
 
